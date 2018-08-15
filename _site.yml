@@ -1,0 +1,18 @@
+name: "Zach Herrnstadt"
+output_dir: "."
+navbar:
+title: "SWC Workshop Webpage"
+left:
+    - text: "Schedule"
+      icon: fa-database
+      href: http://example.com
+
+right:
+    - text: "Syllabus"
+    icon: fa-info-circle
+    href: syllabus.html
+
+output:
+    html_document:
+    theme: yeti
+        highlight: tango 
