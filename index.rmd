@@ -1,5 +1,5 @@
 ---
-title: "homepage"
+title: "Homepage"
 author: "Zach Herrnstadt"
 date: "August 15, 2018"
 output: html_document

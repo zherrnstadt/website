@@ -1,18 +1,20 @@
 name: "Zach Herrnstadt"
 output_dir: "."
 navbar:
-title: "SWC Workshop Webpage"
-left:
-    - text: "Schedule"
-      icon: fa-database
-      href: http://example.com
-
-right:
-    - text: "Syllabus"
-    icon: fa-info-circle
-    href: syllabus.html
-
+  title: "SWC workshop webpage"
+  left:
+      - text: "Schedule"
+        icon: fa-database
+        href: http://example.com
+  
+  right:
+      - text: "Syllabus"
+        icon: fa-info-circle
+        href: syllabus.html
+  
 output:
-    html_document:
+  html_document:
     theme: yeti
-        highlight: tango 
+    highlight: tango
+    lib_dir: site_libs
+    self_contained: no
